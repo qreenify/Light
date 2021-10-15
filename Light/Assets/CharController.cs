@@ -5,7 +5,9 @@ using UnityEngine;
 public class CharController : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 4f; //Change in inspector to adjust move speedVector3 forward, right; // Keeps track of our relative forward and right vectorsvoid Start()
-    {
+    public Vector3 forward, right, heading, direction, rightMovement, upMovement;
+
+    void Start(){
         forward = Camera.main.transform.forward; // Set forward to equal the camera's forward vector
         forward.y = 0; // make sure y is 0
         forward = Vector3.Normalize(forward); // make sure the length of vector is set to a max of 1.0
