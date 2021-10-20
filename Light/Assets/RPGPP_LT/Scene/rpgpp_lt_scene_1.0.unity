@@ -3687,7 +3687,7 @@ MonoBehaviour:
   m_RenderShadows: 1
   m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
+  m_CameraType: 1
   m_Cameras: []
   m_RendererIndex: -1
   m_VolumeLayerMask:
@@ -3776,11 +3776,7 @@ MonoBehaviour:
   orgMaterial: {fileID: 2100000, guid: 3639f55ee2b4429478d61325954708f2, type: 2}
   colourSpheres:
   - mat: {fileID: 0}
-    spherePosition: {x: 77.39073, y: 21.648071, z: 52.6101}
-    radius: 1.94
-    softness: 1
-  - mat: {fileID: 0}
-    spherePosition: {x: 72.6, y: 21.648071, z: 57.099144}
+    spherePosition: {x: 77.25713, y: 22.066732, z: 54.11943}
     radius: 1.94
     softness: 1
 --- !u!1 &535319191
